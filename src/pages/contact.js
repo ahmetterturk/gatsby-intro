@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 
 const Contact = () => {
   return (
     <div>
+      <Header />
       <h1>Contact</h1>
       <p>
         Reach me on Twitter{" "}
@@ -11,9 +14,7 @@ const Contact = () => {
           @ahmtertt
         </a>
       </p>
-      <p>
-        <Link to="/">Back to home page</Link>
-      </p>
+      <Footer />
     </div>
   )
 }
