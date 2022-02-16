@@ -10,10 +10,6 @@ const IndexPage = () => {
       <p>
         Need a developer? <Link to="/contact">Contact Me</Link>
       </p>
-      <p>
-        Reach me on Twitter{" "}
-        <a href="https://twitter.com/ahmtertt">Contact Me</a>
-      </p>
     </Layout>
   )
 }
